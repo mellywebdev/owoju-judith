@@ -1,0 +1,96 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header styling */
+header {
+    background-color: #6a5acd; /* Purple */
+    color: white;
+}
+
+/* Skills section */
+section {
+    background-color: #f3f4f6;
+}
+
+section .grid div {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+h3 {
+    color: #6a5acd;
+}
+
+/* Footer */
+footer {
+    background-color: #6a5acd;
+    color: white;
+}
+
+/* Mobile menu (Hamburger) */
+#hamburger-btn {
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#hamburger-btn svg {
+    width: 30px;
+    height: 30px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        background-color: #6a5acd;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li {
+        padding: 10px;
+        border-bottom: 1px solid #fff;
+    }
+
+    nav ul li:last-child {
+        border-bottom: none;
+    }
+
+    nav ul.active {
+        display: block;
+    }
+}
+
+/* Additional Mobile Styles */
+@media (max-width: 480px) {
+    header {
+        padding: 4rem 2rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    section .grid div {
+        padding: 15px;
+    }
+}

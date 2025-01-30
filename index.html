@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Owoju Judith's Portfolio - UI/UX Design, Frontend Development, Graphic Design">
+    <title>Owoju Judith - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-50">
+
+    <header class="bg-purple-600 text-white py-6">
+        <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
+            <div>
+                <h1 class="text-3xl font-bold">Owoju Judith</h1>
+                <p class="text-xl mt-2">UI/UX Designer | Frontend Developer | Graphic Designer</p>
+            </div>
+            <nav>
+                <button class="text-white md:hidden" id="hamburger-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+                <ul class="hidden md:flex space-x-6">
+                    <li><a href="#" class="hover:text-gray-300">Home</a></li>
+                    <li><a href="#skills" class="hover:text-gray-300">Skills</a></li>
+                    <li><a href="#contact" class="hover:text-gray-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="my-12 px-6" id="skills">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-2xl font-semibold text-center mb-8">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center p-6 bg-white shadow-lg rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">UI/UX Design</h3>
+                    <p>Creating beautiful, intuitive, and user-friendly designs that enhance user experience.</p>
+                </div>
+                <div class="text-center p-6 bg-white shadow-lg rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">Frontend Development</h3>
+                    <p>Building responsive and interactive web interfaces using HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="text-center p-6 bg-white shadow-lg rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">Graphic Design</h3>
+                    <p>Designing logos, posters, and digital media content to capture attention and convey messages.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-purple-600 text-white py-6" id="contact">
+        <div class="max-w-7xl mx-auto text-center">
+            <p></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
